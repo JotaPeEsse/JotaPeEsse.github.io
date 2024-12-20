@@ -13,7 +13,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background: linear-gradient(to bottom, #e11414, #ff758c);
+            background: linear-gradient(to bottom, #de7d7d, #258a44);
             font-family: 'Arial', sans-serif;
             overflow: hidden;
         }
@@ -79,13 +79,15 @@
 </head>
 
 <body>
-    <h1>¡Feliz Navidad! Elegí tu regalito</h1>
+    <h1>¡Feliz Navidad! Elegí tu regalito 🎅</h1>
 
     <div class="container">
         <!-- Árboles -->
         <div class="tree" id="tree1">🎄</div>
         <div class="tree" id="tree2">🎄</div>
         <div class="tree" id="tree3">🎄</div>
+        <div class="tree" id="tree4">🎄</div>
+        <div class="tree" id="tree5">🎄</div>
 
         <!-- Contenedor de mensajes y regalos -->
         <div class="message-container" id="message-container">
@@ -105,9 +107,11 @@
         const photo = document.getElementById("photo");
 
         const data = {
-            tree1: { message: "Gracias por todo ❤️", photo: "ruta/a/imagen1.jpg" },
-            tree2: { message: "¡Feliz Navidad! 🎅", photo: "ruta/a/imagen2.jpg" },
-            tree3: { message: "Eres mi mejor regalo 🎁", photo: "ruta/a/imagen3.jpg" }
+            tree1: { message: "Gracia Por Todo ❤️", photo: "carp/a.jpg" },
+            tree2: { message: "¡Feliz Navidad! 🎅", photo: "carp/b.jpg" },
+            tree3: { message: "Sos Mi Mejor Regalito Amparito🎁", photo: "carp/c.jpg" },
+            tree4: { message: "Que Seas Very Happy 😚❤️", photo: "carp/d.jpg" },
+            tree5: { message: "Te Amo Mi Amor💘", photo: "carp/e.jpg" },
         };
 
         // Mostrar mensaje y regalo
